@@ -10,8 +10,8 @@ const { TwoZeroFourEight } = require('discord-gamecord');
     callback: (client, interaction) => {
 
         const Game = new TwoZeroFourEight({
-            message: message,
-            isSlashGame: false,
+            message: interaction,
+            isSlashGame: true,
             embed: {
               title: '2048',
               color: '#5865F2'
