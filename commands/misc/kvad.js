@@ -6,7 +6,7 @@ const {
   module.exports = {
     deleted: false,
     name: 'kvadraticka',
-    description: 'matyka',
+    description: 'Funkcia na výpočet kvadratickej rovnice',
     // devOnly: Boolean,
     // testOnly: Boolean,
     options: [
@@ -48,7 +48,7 @@ const {
         } else {
             const x1 = (-b + Math.sqrt(d))/(2*a);
             const x2 = (-b - Math.sqrt(d))/(2*a);
-            interaction.reply("Rovnica má dve riešenia: " + '\nx1 = ' + x1 + '\n x2 = ' + x2);
+            interaction.reply("Rovnica má dve riešenia: " + '\nx1 = ' + x1 + '\nx2 = ' + x2);
         }
     },
   };

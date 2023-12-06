@@ -6,7 +6,7 @@ const {
   module.exports = {
     deleted: false,
     name: 'factorial',
-    description: 'matyka',
+    description: 'Funkcia na výpočet faktoriálu',
     // devOnly: Boolean,
     // testOnly: Boolean,
     options: [
