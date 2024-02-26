@@ -19,9 +19,9 @@ const { MatchPairs } = require('discord-gamecord');
             },
             timeoutTime: 60000,
             emojis: ['🍉', '🍇', '🍊', '🥭', '🍎', '🍏', '🥝', '🥥', '🍓', '🫐', '🍍', '🥕', '🥔'],
-            winMessage: '**You won the Game! You turned a total of `{tilesTurned}` tiles.**',
-            loseMessage: '**You lost the Game! You turned a total of `{tilesTurned}` tiles.**',
-            playerOnlyMessage: 'Only {player} can use these buttons.'
+            winMessage: '**Vyhral si! Otočil si celkovo `{tilesTurned}` políčok.**',
+            loseMessage: '**Prehral si! Otočil si celkovo `{tilesTurned}` políčok.**',
+            playerOnlyMessage: 'Iba {player} môže použiť danú interakciu.'
         });
         
         Game.startGame();

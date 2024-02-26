@@ -4,8 +4,8 @@ const { Snake } = require('discord-gamecord');
 
   module.exports = {
     deleted: false,
-    name: 'snake',
-    description: 'Hadík!',
+    name: 'had',
+    description: 'Zahraj si hada!',
 
     callback: (client, interaction) => {
 

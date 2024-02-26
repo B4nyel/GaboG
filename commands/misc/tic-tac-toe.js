@@ -35,11 +35,11 @@ const { TicTacToe } = require('discord-gamecord');
             timeoutTime: 60000,
             xButtonStyle: 'DANGER',
             oButtonStyle: 'PRIMARY',
-            turnMessage: '{emoji} | Its turn of player **{player}**.',
-            winMessage: '{emoji} | **{player}** won the TicTacToe Game.',
-            tieMessage: 'The Game tied! No one won the Game!',
-            timeoutMessage: 'The Game went unfinished! No one won the Game!',
-            playerOnlyMessage: 'Only {player} and {opponent} can use these buttons.'
+            turnMessage: '{emoji} | Na rade je **{player}**.',
+            winMessage: '{emoji} | **{player}** vyhral piškvorky.',
+            tieMessage: 'Remíza! Nikto nevyhral!',
+            timeoutMessage: 'Hra bola ukončená! Nikto nevyhral!',
+            playerOnlyMessage: 'Iba {player} a {opponent} môžu použiť danú interakciu.'
           });
           
           Game.startGame();

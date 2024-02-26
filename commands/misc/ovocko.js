@@ -2,8 +2,8 @@ const { ApplicationCommandOptionType, PermissionFlagsBits} = require('discord.js
 const { Slots } = require('discord-gamecord');
   module.exports = {
     deleted: false,
-    name: 'ovocko',
-    description: 'Zarob peniaze!',
+    name: 'automat',
+    description: 'Simulácia automatu s ovocím!',
 
     callback: (client, interaction) => {
 
@@ -11,7 +11,7 @@ const { Slots } = require('discord-gamecord');
             message: interaction,
             isSlashGame: true,
             embed: {
-              title: 'Slot Machine',
+              title: 'Automat',
               color: '#5865F2'
             },
             slots: ['🍇', '🍊', '🍋', '🍌']

@@ -21,14 +21,14 @@ const { RockPaperScissors } = require('discord-gamecord');
             isSlashGame: true,
             opponent: interaction.options.getUser('opponent'),
             embed: {
-              title: 'Rock Paper Scissors',
+              title: 'Kameň papier nožnice',
               color: '#5865F2',
-              description: 'Press a button below to make a choice.'
+              description: 'Stlač tlačidlo pre voľbu.'
             },
             buttons: {
-              rock: 'Rock',
-              paper: 'Paper',
-              scissors: 'Scissors'
+              rock: 'Kameň',
+              paper: 'Papier',
+              scissors: 'Nožnice'
             },
             emojis: {
               rock: '🌑',
@@ -38,11 +38,11 @@ const { RockPaperScissors } = require('discord-gamecord');
             mentionUser: true,
             timeoutTime: 60000,
             buttonStyle: 'PRIMARY',
-            pickMessage: 'You choose {emoji}.',
-            winMessage: '**{player}** won the Game! Congratulations!',
-            tieMessage: 'The Game tied! No one won the Game!',
-            timeoutMessage: 'The Game went unfinished! No one won the Game!',
-            playerOnlyMessage: 'Only {player} and {opponent} can use these buttons.'
+            pickMessage: 'Zvolil si {emoji}.',
+            winMessage: '**{player}** vyhral! Gratulácia!',
+            tieMessage: 'Remíza! Nikto nevyhral!',
+            timeoutMessage: 'Hra bola ukončená! Nikto nevyhral!',
+            playerOnlyMessage: 'Iba {player} a {opponent} môžu použiť danú interakciu.'
           });
           
           Game.startGame();

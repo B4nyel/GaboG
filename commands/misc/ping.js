@@ -1,9 +1,9 @@
 module.exports = {
   deleted: false,
   name: 'ping',
-  description: 'Pong!',
+  description: 'Pong! Zobraz odozvu od servera.',
   // devOnly: Boolean,
-  testOnly: true,
+  testOnly: false,
   // options: Object[],
   // deleted: Boolean,
 

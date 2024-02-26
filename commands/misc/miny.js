@@ -12,16 +12,16 @@ module.exports = {
             message: interaction,
             isSlashGame: true,
             embed: {
-              title: 'Minesweeper',
+              title: 'Míny',
               color: '#5865F2',
-              description: 'Click on the buttons to reveal the blocks except mines.'
+              description: 'Stlač tlačidlá pre zobrazenie políčok.'
             },
             emojis: { flag: '🚩', mine: '💣' },
             mines: 5,
             timeoutTime: 60000,
-            winMessage: 'You won the Game! You successfully avoided all the mines.',
-            loseMessage: 'You lost the Game! Beaware of the mines next time.',
-            playerOnlyMessage: 'Only {player} can use these buttons.'
+            winMessage: 'Vyhral si! Vyhol si sa všetkým mínam.',
+            loseMessage: 'Prehral si! Vyhni sa míne nabudúce.',
+            playerOnlyMessage: 'Iba {player} môže použiť danú interakciu.'
           });
           
           Game.startGame();
